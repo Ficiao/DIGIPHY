@@ -1004,10 +1004,6 @@
       <Project>{9BA7830A-19C4-386B-4F6F-30EF1E290DED}</Project>
       <Name>PhotonUnityNetworking.Utilities</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
-      <Project>{7DDE356D-587D-7E3D-2D07-2CD734E0BF14}</Project>
-      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
-    </ProjectReference>
     <ProjectReference Include="PhotonRealtime.csproj">
       <Project>{D2FD9534-0B85-0F9F-6D16-54196DC4CD18}</Project>
       <Name>PhotonRealtime</Name>
@@ -1015,6 +1011,10 @@
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.csproj">
       <Project>{915F96D6-C7C9-09F3-ABB0-A90C3C06F3E5}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
+      <Project>{7DDE356D-587D-7E3D-2D07-2CD734E0BF14}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Hands.Samples.VisualizerSample.csproj">
       <Project>{C8D89471-A802-AA00-CDEF-1EA066291C2B}</Project>

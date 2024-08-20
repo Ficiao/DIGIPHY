@@ -1,6 +1,4 @@
-﻿using UnityEngine.XR.Interaction.Toolkit.Interactors;
-
-namespace UnityEngine.XR.Interaction.Toolkit.Samples.Hands
+﻿namespace UnityEngine.XR.Interaction.Toolkit.Samples.Hands
 {
     /// <summary>
     /// Hides the specified GameObject when the associated XRRayInteractor is blocked by an interaction within its group.

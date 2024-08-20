@@ -2,7 +2,6 @@
 using Unity.XR.CoreUtils;
 using Unity.XR.CoreUtils.Bindings;
 using UnityEngine.XR.Hands;
-using UnityEngine.XR.Interaction.Toolkit.Interactors;
 using UnityEngine.XR.Interaction.Toolkit.Utilities.Tweenables.Primitives;
 #endif
 

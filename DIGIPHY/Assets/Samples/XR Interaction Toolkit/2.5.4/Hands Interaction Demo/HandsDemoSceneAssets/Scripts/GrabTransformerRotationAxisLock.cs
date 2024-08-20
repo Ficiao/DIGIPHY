@@ -1,4 +1,3 @@
-using UnityEngine.XR.Interaction.Toolkit.Interactables;
 using UnityEngine.XR.Interaction.Toolkit.Transformers;
 
 namespace UnityEngine.XR.Interaction.Toolkit.Samples.Hands

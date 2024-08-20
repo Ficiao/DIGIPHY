@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/DigiphyLab.unity
+    guid: 61a4ecb7820115942ab8fefdb78a8557
   m_configObjects:
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 1881356db974591419a152cd7023bce8, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: e96601168a1e57e4199ea855c313aa94, type: 2}

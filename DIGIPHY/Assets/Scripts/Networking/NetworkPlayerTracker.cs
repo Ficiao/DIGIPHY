@@ -21,7 +21,7 @@ public class NetworkPlayerTracker : MonoBehaviour
     {
         photonView = GetComponent<PhotonView>();
 
-        XROrigin xrOrigin = FindFirstObjectByType<XROrigin>();
+        XROrigin xrOrigin = FindObjectOfType<XROrigin>();
         rigHead = xrOrigin.transform.Find("Camera Offset/Main Camera");
         rigLeftController = xrOrigin.transform.Find("Camera Offset/Left Controller");
         rigRightController = xrOrigin.transform.Find("Camera Offset/Right Controller");

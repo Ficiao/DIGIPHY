@@ -110,7 +110,7 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.ARStarterAssets
         }
 
         IARInteractor m_ARInteractor;
-        UnityEngine.XR.Interaction.Toolkit.Interactors.XRBaseInputInteractor m_ARInteractorAsControllerInteractor;
+        XRBaseControllerInteractor m_ARInteractorAsControllerInteractor;
         bool m_EverHadSelection;
 
         /// <summary>
@@ -126,7 +126,7 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.ARStarterAssets
 #endif    
 
             m_ARInteractor = m_ARInteractorObject as IARInteractor;
-            m_ARInteractorAsControllerInteractor = m_ARInteractorObject as UnityEngine.XR.Interaction.Toolkit.Interactors.XRBaseInputInteractor;
+            m_ARInteractorAsControllerInteractor = m_ARInteractorObject as XRBaseControllerInteractor;
             if (m_SpawnTriggerType == SpawnTriggerType.SelectAttempt && m_ARInteractorAsControllerInteractor == null)
             {
                 Debug.LogError("Can only use SelectAttempt spawn trigger type with XRBaseControllerInteractor.", this);
