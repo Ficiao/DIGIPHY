@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Netmedia CG\\Desktop\\DIGIPHY\\2023_2024-diplomski-rad-brzica-lea\\DIGIPHY\\DIGIPHY\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4714F562-A1AC-7998-6926-F79A11EA57CF}|Assembly-CSharp.csproj|c:\\users\\netmedia cg\\desktop\\digiphy\\2023_2024-diplomski-rad-brzica-lea\\digiphy\\digiphy\\assets\\scripts\\networking\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4714F562-A1AC-7998-6926-F79A11EA57CF}|Assembly-CSharp.csproj|c:\\users\\netmedia cg\\desktop\\digiphy\\2023_2024-diplomski-rad-brzica-lea\\digiphy\\digiphy\\assets\\chessasset\\scripts\\chessgameloop\\piecesscripts\\piece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4714F562-A1AC-7998-6926-F79A11EA57CF}|Assembly-CSharp.csproj|solutionrelative:assets\\chessasset\\scripts\\chessgameloop\\piecesscripts\\piece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4714F562-A1AC-7998-6926-F79A11EA57CF}|Assembly-CSharp.csproj|c:\\users\\netmedia cg\\desktop\\digiphy\\2023_2024-diplomski-rad-brzica-lea\\digiphy\\digiphy\\assets\\chessasset\\scripts\\chessgameloop\\piececontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4714F562-A1AC-7998-6926-F79A11EA57CF}|Assembly-CSharp.csproj|solutionrelative:assets\\chessasset\\scripts\\chessgameloop\\piececontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4714F562-A1AC-7998-6926-F79A11EA57CF}|Assembly-CSharp.csproj|c:\\users\\netmedia cg\\desktop\\digiphy\\2023_2024-diplomski-rad-brzica-lea\\digiphy\\digiphy\\assets\\chessasset\\scripts\\chessgameloop\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4714F562-A1AC-7998-6926-F79A11EA57CF}|Assembly-CSharp.csproj|solutionrelative:assets\\chessasset\\scripts\\chessgameloop\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4714F562-A1AC-7998-6926-F79A11EA57CF}|Assembly-CSharp.csproj|c:\\users\\netmedia cg\\desktop\\digiphy\\2023_2024-diplomski-rad-brzica-lea\\digiphy\\digiphy\\assets\\chessasset\\scripts\\chessgameloop\\uimanagergameloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4714F562-A1AC-7998-6926-F79A11EA57CF}|Assembly-CSharp.csproj|solutionrelative:assets\\chessasset\\scripts\\chessgameloop\\uimanagergameloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4714F562-A1AC-7998-6926-F79A11EA57CF}|Assembly-CSharp.csproj|c:\\users\\netmedia cg\\desktop\\digiphy\\2023_2024-diplomski-rad-brzica-lea\\digiphy\\digiphy\\assets\\chessasset\\scripts\\chessgameloop\\piecesscripts\\rook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4714F562-A1AC-7998-6926-F79A11EA57CF}|Assembly-CSharp.csproj|solutionrelative:assets\\chessasset\\scripts\\chessgameloop\\piecesscripts\\rook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4714F562-A1AC-7998-6926-F79A11EA57CF}|Assembly-CSharp.csproj|C:\\Users\\Netmedia CG\\Desktop\\DIGIPHY\\2023_2024-diplomski-rad-brzica-lea\\DIGIPHY\\DIGIPHY\\assets\\scripts\\networking\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4714F562-A1AC-7998-6926-F79A11EA57CF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\networking\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4714F562-A1AC-7998-6926-F79A11EA57CF}|Assembly-CSharp.csproj|C:\\Users\\Netmedia CG\\Desktop\\DIGIPHY\\2023_2024-diplomski-rad-brzica-lea\\DIGIPHY\\DIGIPHY\\assets\\scripts\\networking\\networkplayertracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4714F562-A1AC-7998-6926-F79A11EA57CF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\networking\\networkplayertracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4714F562-A1AC-7998-6926-F79A11EA57CF}|Assembly-CSharp.csproj|C:\\Users\\Netmedia CG\\Desktop\\DIGIPHY\\2023_2024-diplomski-rad-brzica-lea\\DIGIPHY\\DIGIPHY\\assets\\chessasset\\scripts\\cameracontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4714F562-A1AC-7998-6926-F79A11EA57CF}|Assembly-CSharp.csproj|solutionrelative:assets\\chessasset\\scripts\\cameracontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +42,108 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UIManagerGameLoop.cs",
+              "DocumentMoniker": "C:\\Users\\Netmedia CG\\Desktop\\DIGIPHY\\2023_2024-diplomski-rad-brzica-lea\\DIGIPHY\\DIGIPHY\\Assets\\ChessAsset\\Scripts\\ChessGameLoop\\UIManagerGameLoop.cs",
+              "RelativeDocumentMoniker": "Assets\\ChessAsset\\Scripts\\ChessGameLoop\\UIManagerGameLoop.cs",
+              "ToolTip": "C:\\Users\\Netmedia CG\\Desktop\\DIGIPHY\\2023_2024-diplomski-rad-brzica-lea\\DIGIPHY\\DIGIPHY\\Assets\\ChessAsset\\Scripts\\ChessGameLoop\\UIManagerGameLoop.cs",
+              "RelativeToolTip": "Assets\\ChessAsset\\Scripts\\ChessGameLoop\\UIManagerGameLoop.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T13:07:09.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PieceController.cs",
+              "DocumentMoniker": "C:\\Users\\Netmedia CG\\Desktop\\DIGIPHY\\2023_2024-diplomski-rad-brzica-lea\\DIGIPHY\\DIGIPHY\\Assets\\ChessAsset\\Scripts\\ChessGameLoop\\PieceController.cs",
+              "RelativeDocumentMoniker": "Assets\\ChessAsset\\Scripts\\ChessGameLoop\\PieceController.cs",
+              "ToolTip": "C:\\Users\\Netmedia CG\\Desktop\\DIGIPHY\\2023_2024-diplomski-rad-brzica-lea\\DIGIPHY\\DIGIPHY\\Assets\\ChessAsset\\Scripts\\ChessGameLoop\\PieceController.cs",
+              "RelativeToolTip": "Assets\\ChessAsset\\Scripts\\ChessGameLoop\\PieceController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAALcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T13:07:06.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Piece.cs",
+              "DocumentMoniker": "C:\\Users\\Netmedia CG\\Desktop\\DIGIPHY\\2023_2024-diplomski-rad-brzica-lea\\DIGIPHY\\DIGIPHY\\Assets\\ChessAsset\\Scripts\\ChessGameLoop\\PiecesScripts\\Piece.cs",
+              "RelativeDocumentMoniker": "Assets\\ChessAsset\\Scripts\\ChessGameLoop\\PiecesScripts\\Piece.cs",
+              "ToolTip": "C:\\Users\\Netmedia CG\\Desktop\\DIGIPHY\\2023_2024-diplomski-rad-brzica-lea\\DIGIPHY\\DIGIPHY\\Assets\\ChessAsset\\Scripts\\ChessGameLoop\\PiecesScripts\\Piece.cs",
+              "RelativeToolTip": "Assets\\ChessAsset\\Scripts\\ChessGameLoop\\PiecesScripts\\Piece.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAADwv0IAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T13:06:07.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\Netmedia CG\\Desktop\\DIGIPHY\\2023_2024-diplomski-rad-brzica-lea\\DIGIPHY\\DIGIPHY\\Assets\\ChessAsset\\Scripts\\ChessGameLoop\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\ChessAsset\\Scripts\\ChessGameLoop\\GameManager.cs",
+              "ToolTip": "C:\\Users\\Netmedia CG\\Desktop\\DIGIPHY\\2023_2024-diplomski-rad-brzica-lea\\DIGIPHY\\DIGIPHY\\Assets\\ChessAsset\\Scripts\\ChessGameLoop\\GameManager.cs",
+              "RelativeToolTip": "Assets\\ChessAsset\\Scripts\\ChessGameLoop\\GameManager.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAcwBUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T13:02:39.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Rook.cs",
+              "DocumentMoniker": "C:\\Users\\Netmedia CG\\Desktop\\DIGIPHY\\2023_2024-diplomski-rad-brzica-lea\\DIGIPHY\\DIGIPHY\\Assets\\ChessAsset\\Scripts\\ChessGameLoop\\PiecesScripts\\Rook.cs",
+              "RelativeDocumentMoniker": "Assets\\ChessAsset\\Scripts\\ChessGameLoop\\PiecesScripts\\Rook.cs",
+              "ToolTip": "C:\\Users\\Netmedia CG\\Desktop\\DIGIPHY\\2023_2024-diplomski-rad-brzica-lea\\DIGIPHY\\DIGIPHY\\Assets\\ChessAsset\\Scripts\\ChessGameLoop\\PiecesScripts\\Rook.cs",
+              "RelativeToolTip": "Assets\\ChessAsset\\Scripts\\ChessGameLoop\\PiecesScripts\\Rook.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T13:02:04.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CameraControl.cs",
+              "DocumentMoniker": "C:\\Users\\Netmedia CG\\Desktop\\DIGIPHY\\2023_2024-diplomski-rad-brzica-lea\\DIGIPHY\\DIGIPHY\\Assets\\ChessAsset\\Scripts\\CameraControl.cs",
+              "RelativeDocumentMoniker": "Assets\\ChessAsset\\Scripts\\CameraControl.cs",
+              "ToolTip": "C:\\Users\\Netmedia CG\\Desktop\\DIGIPHY\\2023_2024-diplomski-rad-brzica-lea\\DIGIPHY\\DIGIPHY\\Assets\\ChessAsset\\Scripts\\CameraControl.cs",
+              "RelativeToolTip": "Assets\\ChessAsset\\Scripts\\CameraControl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T12:33:16.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NetworkPlayerTracker.cs",
+              "DocumentMoniker": "C:\\Users\\Netmedia CG\\Desktop\\DIGIPHY\\2023_2024-diplomski-rad-brzica-lea\\DIGIPHY\\DIGIPHY\\Assets\\Scripts\\Networking\\NetworkPlayerTracker.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Networking\\NetworkPlayerTracker.cs",
+              "ToolTip": "C:\\Users\\Netmedia CG\\Desktop\\DIGIPHY\\2023_2024-diplomski-rad-brzica-lea\\DIGIPHY\\DIGIPHY\\Assets\\Scripts\\Networking\\NetworkPlayerTracker.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Networking\\NetworkPlayerTracker.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAYwEsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T12:25:25.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "NetworkManager.cs",
               "DocumentMoniker": "C:\\Users\\Netmedia CG\\Desktop\\DIGIPHY\\2023_2024-diplomski-rad-brzica-lea\\DIGIPHY\\DIGIPHY\\Assets\\Scripts\\Networking\\NetworkManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Networking\\NetworkManager.cs",
               "ToolTip": "C:\\Users\\Netmedia CG\\Desktop\\DIGIPHY\\2023_2024-diplomski-rad-brzica-lea\\DIGIPHY\\DIGIPHY\\Assets\\Scripts\\Networking\\NetworkManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Networking\\NetworkManager.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAA5wB8AAAAgAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwDYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-20T11:02:41.829Z",
               "EditorCaption": ""

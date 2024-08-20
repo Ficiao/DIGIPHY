@@ -4,6 +4,7 @@ using Photon.Realtime;
 
 public class NetworkManager : MonoBehaviourPunCallbacks
 {
+    [SerializeField] private Transform _chessLocation;
     private GameObject networkPlayer;
 
     private void Start()
@@ -22,7 +23,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         //UIManager.Instance.SetNetworkStatusText("[NetManager] Connected to PUN server. Joining or creating the room...");
 
         RoomOptions roomOptions = new RoomOptions();
-        roomOptions.MaxPlayers = 10;
+        roomOptions.MaxPlayers = 2;
         roomOptions.IsVisible = true;
         roomOptions.IsOpen = true;
 
@@ -42,6 +43,8 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         //UIManager.Instance.SetNetworkStatusText("[NetManager] " + PhotonNetwork.CurrentRoom.ToStringFull());
 
         networkPlayer = PhotonNetwork.Instantiate("NetworkPlayer", transform.position, transform.rotation);
+        //if (PhotonNetwork.IsMasterClient) PhotonNetwork.Instantiate("ChessPrefab", _chessLocation.position, _chessLocation.rotation);
+        Destroy(_chessLocation.gameObject);
     }
 
     public override void OnPlayerEnteredRoom(Player newPlayer)

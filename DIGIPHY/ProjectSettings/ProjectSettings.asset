@@ -90,7 +90,7 @@ PlayerSettings:
   bakeCollisionMeshes: 0
   forceSingleInstance: 0
   useFlipModelSwapchain: 1
-  resizableWindow: 0
+  resizableWindow: 1
   useMacAppStoreValidation: 0
   macAppStoreCategory: public.app-category.games
   gpuSkinning: 1
@@ -137,9 +137,9 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   bundleVersion: 0.1
   preloadedAssets:
-  - {fileID: 2179750196002142409, guid: e96601168a1e57e4199ea855c313aa94, type: 2}
+  - {fileID: 6921672801241388521, guid: e96601168a1e57e4199ea855c313aa94, type: 2}
   - {fileID: 11400000, guid: 1881356db974591419a152cd7023bce8, type: 2}
-  - {fileID: 6757264484955175277, guid: f060a14ded1c3eb4ea4af749c657d41e, type: 2}
+  - {fileID: 807697082757443709, guid: f060a14ded1c3eb4ea4af749c657d41e, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -160,6 +160,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.DefaultCompany.AirQualityDataVisualization
+    Standalone: com.DefaultCompany.AirQualityDataVisualization
   buildNumber:
     Standalone: 0
     VisionOS: 0
