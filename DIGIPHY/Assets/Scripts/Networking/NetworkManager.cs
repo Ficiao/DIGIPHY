@@ -5,6 +5,7 @@ using Photon.Realtime;
 public class NetworkManager : MonoBehaviourPunCallbacks
 {
     [SerializeField] private Transform _chessLocation;
+    [SerializeField] private Transform _connect4Location;
     private GameObject networkPlayer;
 
     private void Start()
@@ -43,7 +44,11 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         //UIManager.Instance.SetNetworkStatusText("[NetManager] " + PhotonNetwork.CurrentRoom.ToStringFull());
 
         networkPlayer = PhotonNetwork.Instantiate("NetworkPlayer", transform.position, transform.rotation);
-        //if (PhotonNetwork.IsMasterClient) PhotonNetwork.Instantiate("ChessPrefab", _chessLocation.position, _chessLocation.rotation);
+        if (PhotonNetwork.IsMasterClient)
+        {
+            PhotonNetwork.Instantiate("ChessPrefab", _chessLocation.position, _chessLocation.rotation);
+            PhotonNetwork.Instantiate("Connect4Prefab", _connect4Location.position, _connect4Location.rotation);
+        }
         Destroy(_chessLocation.gameObject);
     }
 

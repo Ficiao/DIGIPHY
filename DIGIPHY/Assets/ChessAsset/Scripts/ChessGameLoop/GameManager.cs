@@ -1,3 +1,4 @@
+using Photon.Pun;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -7,12 +8,15 @@ namespace ChessMainLoop
 { 
     public delegate void PieceMoved();
 
-    public class GameManager : MonoBehaviour
+    public class GameManager : MonoBehaviour, IPunObservable
     {
         private int _turnCount = 0;
         public int TurnCount { get => _turnCount; }
         private SideColor _turnPlayer;
         public SideColor TurnPlayer { get => _turnPlayer; set => _turnPlayer = value; }
+        private SideColor _localPlayer;
+        public SideColor LocalPlayer { get => _localPlayer; set => _localPlayer = value; }
+        public bool IsPlayerTurn => _localPlayer == _turnPlayer;
         private SideColor _checkedSide;
         public SideColor CheckedSide { get => _checkedSide; set => _checkedSide = Check(value); }
         private Pawn _passantable = null;
@@ -39,11 +43,30 @@ namespace ChessMainLoop
                 _instance = this;
             }
         }
-
         private void Start()
         {
-            _turnPlayer = SideColor.White;
             _checkedSide = SideColor.None;
+            if (PhotonNetwork.IsMasterClient)
+            {
+                _turnPlayer = SideColor.White;
+                _localPlayer = SideColor.White;
+            }
+            else
+            {
+                _localPlayer = SideColor.Black;
+            }
+        }
+
+        public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
+        {
+            if (stream.IsWriting)
+            {
+                stream.SendNext(_turnPlayer);
+            }
+            else
+            {
+                _turnPlayer = (SideColor)stream.ReceiveNext();
+            }
         }
 
         /// <summary>
@@ -62,6 +85,8 @@ namespace ChessMainLoop
 
         public void ChangeTurn()
         {
+            if (!PhotonNetwork.IsMasterClient) return;
+
             if (_turnPlayer == SideColor.White)
             {
                 _turnPlayer = SideColor.Black;
